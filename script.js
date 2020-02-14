@@ -17,7 +17,8 @@ console.log(result);
 while (i <= str.length) {
     if (str[i] == n) {
         result++;
-    } i++;
+    } 
+    i++;
 } 
 console.log(result);
 
@@ -26,7 +27,9 @@ console.log(result);
 do {
     if (str[i] == n) {
     result++;
-    } i++;
+        
+    } 
+    i++;
 } while (i <= str.length);
 console.log(result);
   
