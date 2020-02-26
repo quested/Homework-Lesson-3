@@ -7,9 +7,10 @@ var i = 0;
 
 for (i = 0; i <= str.length; i++) {
     if (str[i] == n) {
-        result ++;
+        result++;
     } 
-} 
+};
+
 console.log(result);
 
       
@@ -19,28 +20,32 @@ while (i <= str.length) {
         result++;
     } 
     i++;
-} 
+};
+
 console.log(result);
 
 
 
 do {
     if (str[i] == n) {
-    result++;
-        
-    } 
+        result++;
+    }
     i++;
 } while (i <= str.length);
+
 console.log(result);
   
       
 
 function letterStr(str, n) {
     result = 0;
+
     for (i = 0; i <= str.length; i++) {
         if (str[i] == n) {
             result ++;
         }
+
     } return result;
-}
-console.log(letterStr('adfsdfdsaffasfaaaaasfsfasfdsf', 'a'));
+};
+
+console.log(letterStr("adfsdfdsaffasfaaaaasfsfasfdsf", "a"));
