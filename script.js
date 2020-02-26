@@ -44,8 +44,9 @@ function letterStr(str, n) {
         if (str[i] == n) {
             result ++;
         }
-
-    } return result;
+    }
+    
+    return result;
 };
 
 console.log(letterStr("adfsdfdsaffasfaaaaasfsfasfdsf", "a"));
